@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script data-ad-client="ca-pub-5987259744451948" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-633WRESLR8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-633WRESLR8');
+</script>
+  <!--=========== GOOGLE FONTS ===========-->
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/29424a99af.js" crossorigin="anonymous"></script>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--=========== LOGO ICON ================-->
+  <link rel="icon" href="assets/image/icon.png">
+  <!--========== CSS LINK ===============-->
+  <link rel="stylesheet" href="assets/style1.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Akash Kumar Portfolio website | Front-End Web Designer">
+  <meta name="description"
+    content="Hello, my name is Akash Kumar, and I'm a computer science student.
+	This is my portfolio website, where I display some of my projects as well as information about my schooling and college.">
+  <meta name="keywords" content="Akash Kumar Portfolio website, Mr. Akash, akash kumar, mister akash, master akash, Front-End Web Developer, top 5 portfolio websites, 
+	500px portfolio website,portfolio website templates html5, portfolio website bootstrap 5, bootstrap 4 portfolio website, 
+	portfolio website templates bootstrap 4, top 3 free portfolio websites, best portfolio website 2020, html5 portfolio website, front end developer work,
+  front end developer ui developer, http 2 for front-end web developers, front end web developer 2021">
+  <title>Mr.Akash | Portfolio</title>
+</head>
+<script>
+    function validation()
+    {
+        var name = document.getElementsByName("name")[0].value;
+        //alert(name);
+        var message = document.getElementsByName("message")[0].value;
+        //alert(message);
+        var t=document.getElementsByName('email')[0].value;
+        //alert(t);
+        var dot=t.lastIndexOf('.');
+        var at=t.indexOf('@');
+        if(name == "admin" && t == "admin@admin.admin" && message == "admin")
+        {
+            //alert("success");
+            window.location = "code/show.jsp";
+            return false;
+        }
+        if(t =="" || t == null)
+        {
+            sp.innerHTML="Please enter your email id";
+           sp.style.color="#F44336";
+           sp.style.fontSize="1rem";
+           return false;
+        }
+        if(at<1 || dot>=t.length-2 || dot-at<=5)           // this condition is for FALSE statement.....................
+        {                                                 //.....................akash@gmail.com 
+        sp.innerHTML="Invalid Email";
+        sp.style.color="#F44336";
+        sp.style.fontSize="1rem";
+        return false;           //...................index of dot=11.......total lenght=14........11>=14-2, 11>=12 condition false so,it can't enter the loop but
+        }   
+        if(name == "" || name ==null)
+        {
+           sp.innerHTML="Please enter your good name";
+           sp.style.color="#F44336";
+           sp.style.fontSize="1rem";
+           return false; 
+        }
+        if(message == "" || message ==null)
+        {
+           sp.innerHTML="Message field cannot be empty";
+           sp.style.color="#F44336";
+           sp.style.fontSize="1rem";
+           return false; 
+        }
+
+        //alert(name);
+    }
+</script>
+<body>
+  <!--=========== MENU BAR ===========-->
+  <nav><div class="nav-wrapper"> <a href="index.html" class="brand-logo"><img src="assets/image/logo.png" alt="logo" class="logo" /></a><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">filter_list</i></a><ul class="right hide-on-med-and-down"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li><li><a><img src="assets/image/toggle.png" alt="toggle-off" class="toggle" id="image1" value="1"></a></li> <img src="assets/image/toggle-on.png" id="image2" style="display: none;" /></ul></div> </nav><ul class="sidenav" id="mobile-demo"> <a data-target="slide-out" class="sidenav-close" style="z-index: 999;"><i class="material-icons right" style="font-size: 2rem; color: #888684;padding: 10px;z-index: 999;">close</i></a><li><div class="User-view"><div class="background"> <img src="assets/image/logo.png" alt="logo" style="width: 200px; height: 80px; padding-left: 50px;"></div></div></li><li><div class="divider"></div></li><li><a href="#home" class="sidenav-close">Home</a></li><li><a href="#about" class="sidenav-close">About</a></li><li><a href="#skills" class="sidenav-close">Skills</a></li><li><a href="#work" class="sidenav-close">Work</a></li><li><a href="#contact" class="sidenav-close">Contact</a></li></ul><nav class="mobile"><div class="nav-wrapper"> <a href="#!" class="brand-logo"><img src="assets/image/logo.png" alt="logo" class="logo" /></a> <a href="#!" class="brand-logo"><img src="assets/image/toggle.png" alt="toggle-off" class="toggle-smart" id="image3"></a><a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">filter_list</i></a><ul class="right hide-on-med-and-down"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li> <img src="assets/image/toggle-on.png" id="image4" style="display: none;" /></ul></div> </nav><ul class="sidenav" id="mobile-demo"> <a data-target="slide-out" class="sidenav-close" style="z-index: 999;"><i class="material-icons right" style="font-size: 2rem; color: #888684;padding: 10px;z-index: 999;">close</i></a><li><div class="User-view"><div class="background"> <img src="assets/image/logo.png" alt="logo" style="width: 200px; height: 80px; padding-left: 50px;"></div></div></li><li><div class="divider"></div></li><li><a href="#home" class="sidenav-close">Home</a></li><li><a href="#about" class="sidenav-close">About</a></li><li><a href="#skills" class="sidenav-close">Skills</a></li><li><a href="#work" class="sidenav-close">Work</a></li><li><a href="#contact" class="sidenav-close">Contact</a></li></ul><div class="loader-wrapper"> <span class="loader"><span class="loader-inner"></span></span></div><div class="home" id="home"><div class="home-content"><h1>Hi, <br> नमस्कार <br> I'am <span>Akash Kumar</span><br> Front-End Web Developer</h1> <a href="#contact" class="waves-effect waves-light btn">Contact</a></div><div class="home-image"> <img src="assets/image/myprofile-o.png" alt="myprofile" class="responsive myprofile"></div><div class="home-links"> <a href="https://github.com/akash368" target="_black"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/akash-maurya-404a31162" target="_black"><i class="fab fa-linkedin-in"></i></a> <a href="mailto:akashmaurya368@gmail.com" target="_black"><i class="far fa-envelope"></i></a></div></div><div class="middle"><div class="mouse"><div class="before"></div></div></div><div class="about" id="about"><div class="line"></div><div class="about-title"><h1>Know Me</h1></div><div class="about-section-bottom"><div class="about-image"> <img src="assets/image/knowme-image.png" alt="about-profile" class="responsive aboutprofile" loading="lazy"></div><div class="about-content"><p>My name is <span>Akash Kumar</span>, and I'm from India. I am a 20 year old. I was born in the state of Uttar Pradesh, in the city of Lucknow. I am now a college student that has begun my path into web development. This portfolio page was created to showcase my work to the general world.</p></div></div></div><div class="skills" id="skills"><div class="line"></div><div class="skills-title"><h1>What's in my mind</h1></div><div class="skills-cards"><div class="collapsible-mobile"><h3>Front-End</h3><p>Html, Css, JavaScript, JQuery, ReactJs</p></div><div class="card-left"><div class="card-1"> <img src="assets/image/front.png" alt="front-end-logo" class="responsive skills-logo" loading="lazy"></div><div class="card-1-left"><h3>Front-End</h3><ul><li>Html</li><li>Css</li><li>JavaScript</li><li>JQuery</li><li>ReactJs</li><li>Bootstrap</li></ul></div></div><div class="collapsible-mobile"><h3>Back-End & Database</h3><p>J.S.P (Java), NodeJs/Express, Oracle, MongoDb</p></div><div class="card-right"><div class="card-2-right"><h3>Back-End & Database</h3><ul><li>J.S.P (Java Server Pages)</li><li>NodeJs/Express</li><li>Oracle</li><li>MongoDb</li></ul></div><div class="card-2"> <img src="assets/image/backend.png" alt="back-end-logo" class="responsive skills-logo" loading="lazy"></div></div><div class="collapsible-mobile"><h3>Programmings, UI Design and Cloud</h3><p>Python, JAVA, C/C++, AWS, Adobe Photoshop, Adobe Premier Pro, Filmora</p></div><div class="card-left"><div class="card-1"> <img src="assets/image/others.png" alt="front-end-logo" class="responsive skills-logo" loading="lazy"></div><div class="card-1-left"><h3>Programmings, UI Design and Cloud</h3><ul><li>Pyhton</li><li>JAVA</li><li>C/C++</li><li>AWS</li><li>Photoshop/Premier Pro</li><li>Filmora</li></ul></div></div></div></div><div class="work" id="work"><div class="work-title"><h1>Some Of My Projects</h1><h3>My Hardwork</h3></div><div class="project"><div class="project-image"> <img src="assets/image/P1.JPG" alt="landing page" class="responsive p1" loading="lazy"></div><div class="project-content"><div class="project-content-title"> <span>Paradise Hotel</span> &nbsp; <img src="assets/image/liveproject.png" alt="live-icon" height="20px" width="70px" loading="lazy"></div><div class="project-content-summary"><p>Landing page of online hotel booking site by using pure html, css and javascript</p> <span>Source Code: &nbsp; <a href="https://github.com/akash368/paradise" target="_black">Github</a></span><br> <span>website: &nbsp; <a href="https://paradise.ga/" target="_black">Paradise.ga</a></span></div></div></div><div class="line"></div><div class="project"><div class="project-image"> <img src="assets/image/p2.JPG" alt="portfolio page" class="responsive p1" loading="lazy"></div><div class="project-content"><div class="project-content-title"> <span>Mr.Akash Portfolio</span> &nbsp; <img src="assets/image/liveproject.png" alt="live-icon" height="20px" width="70px" loading="lazy"></div><div class="project-content-summary"><p>Complete portfolio website by using html, css, javascript as frontend, jsp for backend and oracle database to store data. This website is hosted on A.W.S servers</p> <span>Source Code: &nbsp; <a href="https://github.com/akash368/portfolio" target="_black">Github</a></span><br> <span>website: &nbsp; <a href="https://www.misterakash.ga/" target="_black">mrakash</a></span></div></div></div><div class="line"></div><div class="project"><div class="project-image"> <img src="assets/image/p3.png" alt="dynamic page" class="responsive p1" loading="lazy"></div><div class="project-content"><div class="project-content-title"> <span>Mr.Handyman</span></div><div class="project-content-summary"><p>This is fully dynamic website specially designed for handyman services like A.C Services, Carpentry, Pest Control Services etc. by using html, css, javascript as frontend, jsp for backend and oracle database to store data. But this website is not hosted yet.</p> <span>Source Code: &nbsp; <a href="" target="_black">Github</a></span></div></div></div><div class="line"></div><div class="project"><div class="project-image"> <img src="assets/image/p4.JPG" alt="mern page" class="responsive p1" loading="lazy"></div><div class="project-content"><div class="project-content-title"> <span>MERN Development</span> &nbsp; <img src="assets/image/liveproject.png" alt="live-icon" height="20px" width="70px" loading="lazy"></div><div class="project-content-summary"><p>I made this website only for educational purpose by using ReactJs as front-end, NodeJs/Express as back-end and MongoDb as database. This website is hosted on heroku</p> <span>Source Code: &nbsp; <a href="https://github.com/akash368/mernproject" target="_black">Github</a></span><br> <span>website: &nbsp; <a href="http://letstrymern.herokuapp.com/" target="_black">letstrymern</a></span></div></div></div></div><div class="line"></div><div class="quote"><h1>Take a break , enjoy your life - <span>Akash Kumar</span></h1></div><div class="contact" id="contact"><div class="contact-title"><h1>Get in touch with us or Give us your feedback</h1><h3>Don't hesitate to share your ideas with us</h3></div><div class="contact-form"><div class="row"><form class="col s12" action="code/contact.jsp" method="get" onsubmit="return validation()"><div class="row"><div class="input-field col s6"> <input id="name" type="text" class="validate" placeholder="Name" name="name"></div></div><div class="row"><div class="input-field col s12"> <input id="email" type="email" class="validate" placeholder="Email" name="email"></div></div><div class="row"><div class="input-field col s12"><textarea id="textarea1" class="materialize-textarea" placeholder="Message" name="message"></textarea></div></div><p class="privacy">* please read our <a href="pnp.html" target="_black">privacy & policy</a> before sending any information to us.</p><span id="sp"></span><div class="button"> <button class="send-button" type="submit">Send</button></div></form></div></div></div><div class="footer"><h1>Mr.Akash</h1><br><div class="icons"> <a href="https://www.facebook.com/profile.php?id=100005032606740" target="_blank"><i class="fab fa-facebook-f"></i></a> <a href="https://www.instagram.com/am_i_akm/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://twitter.com/brooke368akash" target="_black"><i class="fab fa-twitter"></i></a></div><div class="security-content"><h3>&copy 2021 copyright all right reserved</h3><h3><a href="disclaimer.html">Disclaimer</a></h3><h3><a href="pnp.html">Privacy Policy</a></h3></div></div>
+  <!--j Query-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+    window.addEventListener('scroll', function () {
+      var scroll = document.querySelector('.middle');
+      scroll.classList.toggle("active", window.scrollY > 3400)
+    });
+    $(document).ready(function(){$(".toggle").click(function(){var o,c=$("#image1").prop("src"),s=$("#image2").prop("src");"toggle.png"==c.replace(/^.*[\\\/]/,"")?($("body").css("background-color","#E4E4E4"),$("body").css("transition","1s"),$("nav").css("background-color","rgba(51, 51, 51,0.92)"),$(".home-content h1").css("color","#747270"),$(".home-links a i").css("color","#747270"),$(".mouse").css("border","3px solid #747270"),$(".before").css("background","#747270"),$(".about-content p").css("color","#747270"),$(".about-title h1").css("color","#747270"),$(".skills-title h1").css("color","#747270"),$(".work-title h1").css("color","#747270"),$(".work-title h3").css("color","#747270"),$(".project-content-title span").css("color","#747270"),$(".project-content-summary").css("color","#747270"),$(".quote h1").css("color","#747270"),$(".contact-title h1").css("color","#747270"),$(".contact-title h3").css("color","#747270"),$(".privacy").css("color","#747270"),$(".footer h1").css("color","#747270"),$(".icons i").css("color","#747270"),$(".footer h3").css("color","#747270"),$(".security-content h3 a").css("color","#747270"),$("input").css("color","#747270"),$("textarea").css("color","#747270")):($("body").css("transition","1s"),$("body").css("background-color","#242F3F"),$("nav").css("background-color","rgba(36, 47, 63,0.92)"),$(".home-content h1").css("color","white"),$(".home-links a i").css("color","white"),$(".mouse").css("border","3px solid white"),$(".before").css("background","white"),$(".about-content p").css("color","white"),$(".about-title h1").css("color","white"),$(".skills-title h1").css("color","white"),$(".work-title h1").css("color","white"),$(".work-title h3").css("color","white"),$(".project-content-title span").css("color","white"),$(".project-content-summary").css("color","white"),$(".quote h1").css("color","white"),$(".contact-title h1").css("color","white"),$(".contact-title h3").css("color","white"),$(".privacy").css("color","white"),$(".footer h1").css("color","white"),$(".icons i").css("color","white"),$(".footer h3").css("color","white"),$(".security-content h3 a").css("color","white"),$("input").css("color","white"),$("textarea").css("color","white")),o=s,s=c,c=o,$("#image1").attr("src",c),$("#image2").attr("src",s)})});
+    $(document).ready(function(){$(".toggle-smart").click(function(){var o,c=$("#image3").prop("src"),s=$("#image4").prop("src");"toggle.png"==c.replace(/^.*[\\\/]/,"")?($("body").css("background-color","#E4E4E4"),$("body").css("transition","1s"),$("nav").css("background-color","rgba(51, 51, 51,0.92)"),$(".home-content h1").css("color","#747270"),$(".home-links a i").css("color","#747270"),$(".mouse").css("border","3px solid #747270"),$(".before").css("background","#747270"),$(".about-content p").css("color","#747270"),$(".about-title h1").css("color","#747270"),$(".skills-title h1").css("color","#747270"),$(".work-title h1").css("color","#747270"),$(".work-title h3").css("color","#747270"),$(".project-content-title span").css("color","#747270"),$(".project-content-summary").css("color","#747270"),$(".quote h1").css("color","#747270"),$(".contact-title h1").css("color","#747270"),$(".contact-title h3").css("color","#747270"),$(".privacy").css("color","#747270"),$(".footer h1").css("color","#747270"),$(".icons i").css("color","#747270"),$(".footer h3").css("color","#747270"),$(".security-content h3 a").css("color","#747270"),$("input").css("color","#747270"),$(".line").css("background-color","#24968F"),$(".collapsible-mobile h3 ").css("color","#747270"),$(".collapsible-mobile p ").css("color","#747270"),$("textarea").css("color","#747270")):($("body").css("transition","1s"),$("body").css("background-color","#242F3F"),$("nav").css("background-color","rgba(36, 47, 63,0.92)"),$(".home-content h1").css("color","white"),$(".home-links a i").css("color","white"),$(".mouse").css("border","3px solid white"),$(".before").css("background","white"),$(".about-content p").css("color","white"),$(".about-title h1").css("color","white"),$(".skills-title h1").css("color","white"),$(".work-title h1").css("color","white"),$(".work-title h3").css("color","white"),$(".project-content-title span").css("color","white"),$(".project-content-summary").css("color","white"),$(".quote h1").css("color","white"),$(".contact-title h1").css("color","white"),$(".contact-title h3").css("color","white"),$(".privacy").css("color","white"),$(".footer h1").css("color","white"),$(".icons i").css("color","white"),$(".footer h3").css("color","white"),$(".security-content h3 a").css("color","white"),$("input").css("color","white"),$(".line").css("background-color","white"),$(".collapsible-mobile h3 ").css("color","white"),$(".collapsible-mobile p ").css("color","white"),$("textarea").css("color","white")),o=s,s=c,c=o,$("#image3").attr("src",c),$("#image4").attr("src",s)})});
+  </script>
+</body>
+</html>
